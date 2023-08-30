@@ -11,7 +11,7 @@ public class Computer {
       this.ssd = ssd;
    }
 
-   //7 получить значения из ram
+   //7 получить значения из ram и ssd
    public void printState(){
       System.out.println("Ram:" + ram.getValue() + " Ssd:" + ssd.getValue());
 
